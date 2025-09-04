@@ -17,9 +17,9 @@ public class UserProviderFactory implements UserStorageProviderFactory<UserProvi
 
     private Connection connection;
     private static final Logger logger = LoggerFactory.getLogger(UserProviderFactory.class);
-    private static final String URL = "jdbc:postgresql://host.docker.internal:6543/custom-provider";
+    private static final String URL = "jdbc:postgresql://host.docker.internal:5432/app-demo-be";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "12345";
+    private static final String PASSWORD = "1234";
 
     @Override
     public UserProvider create(KeycloakSession keycloakSession, ComponentModel componentModel) {

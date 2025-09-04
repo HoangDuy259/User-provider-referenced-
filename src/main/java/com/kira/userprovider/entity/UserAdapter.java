@@ -12,7 +12,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.List;
 
-public class UserAdapter extends AbstractUserAdapterFederatedStorage {
+    public class UserAdapter extends AbstractUserAdapterFederatedStorage {
 
     private final String id;
     private final User user;
